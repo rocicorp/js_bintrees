@@ -1,4 +1,6 @@
-Binary Trees [![Build Status](https://secure.travis-ci.org/vadimg/js_bintrees.png?branch=master)](http://travis-ci.org/vadimg/js_bintrees)
+This is a fork of [vadimg/js_bintrees](https://github.com/vadimg/js_bintrees) that uses ES modules.
+
+Binary Trees
 ============
 
 This package provides Binary and Red-Black Search Trees written in Javascript. It is released under the MIT License.
@@ -18,7 +20,7 @@ Quickstart
 node.js:
 
 ```
-npm install bintrees
+npm install 
 ```
 
 ```javascript
