@@ -1,7 +1,7 @@
-var Tree = require('..').RBTree;
+import {RBTree as Tree} from '../index.js';
 
 // create a new tree, pass in the compare function
-var tree = new Tree(function(a, b) { return a - b; });
+var tree = new Tree((a, b) => a - b);
 
 // do some inserts
 tree.insert(1);
